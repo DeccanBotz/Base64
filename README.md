@@ -32,6 +32,17 @@ License -> https://github.com/DeccanBotz/OCR/blob/main/LICENSE
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DeccanBotz/Base64)
 
+### Commands
+```
+start - Checking Bot Online
+help - To Know How to use me
+b64encode - To Encode in Base 64
+b64decode - To Decode in Base 64
+b32encode - To Encode in Base 32
+b32decode - To Decode in Base 32
+b16encode - To Encode in Base 16
+b16decode - To Decode in Base 16
+```
 ### 👨‍💻 Dev
 
 <p align="middle">
