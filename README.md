@@ -12,7 +12,7 @@ Please fork this repository & Don't import code
 Made with Python3
 (C) @Deccan Botz 
 Copyright permission under GNU General Public License v3.0
-License -> https://github.com/DeccanBotz/OCR/blob/main/LICENSE
+License -> https://github.com/DeccanBotz/Base64/blob/main/LICENSE
 ```
 
 <p align="center">
