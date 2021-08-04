@@ -36,8 +36,8 @@ def start(update, context):
     """Send a message when the command /start is issued."""
     global first
     first=update.message.chat.first_name
-    keybord1 = [[InlineKeyboardButton("Channel 🇮🇳", url='https://t.me/Deccan_Botz'),
-                InlineKeyboardButton("Group 🏴‍☠️", url='https://t.me/Deccan_Supportz')]]
+    keybord1 = [[InlineKeyboardButton("Tutorial 📽", url='https://youtu.be/KBye6MXf-64'),
+                InlineKeyboardButton("Owner 👨‍💻", url=f'https://t.me/{OWNER}')]]
     reply_markup = InlineKeyboardMarkup(keybord1)
     update.message.reply_text('Hi! '+str(first)+' \n\nWelcome to Base 64 Bot.\n\nI can Encode & Decode a Text in Base 64, 32, 16.\n\nCheck /help for more...', reply_markup=reply_markup)
 
@@ -47,8 +47,8 @@ def help(update, context):
     """Send a message when the command /help is issued."""
     global first
     first=update.message.chat.first_name
-    keybord1 = [[InlineKeyboardButton("Channel 🇮🇳", url='https://t.me/Deccan_Botz'),
-                InlineKeyboardButton("Group 🏴‍☠️", url='https://t.me/Deccan_Supportz')]]
+    keybord1 = [[InlineKeyboardButton("Tutorial 📽", url='https://youtu.be/KBye6MXf-64'),
+                InlineKeyboardButton("Owner 👨‍💻", url=f'https://t.me/{OWNER}')]]
     reply_markup = InlineKeyboardMarkup(keybord1)
     update.message.reply_text('Hi! '+str(first)+' \n\nFollow these Steps...\n\nUse (/b64encode text) to encode into base 64 format\nUse (/b64decode text) to decode into base 64 format\nUse(/b32encode text) to encode into base 32 format\nUse (/b32decode text) to decode into base 32 format\nUse (/b16encode text) to encode into base 16 format\nUse (/b16decode text) to decode into base 16 format', reply_markup=reply_markup)
 
