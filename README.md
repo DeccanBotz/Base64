@@ -28,7 +28,7 @@ License -> https://github.com/DeccanBotz/Base64/blob/main/LICENSE
 * `BOT_TOKEN` Your bot token from @BotFather
 
 ### Deploy to Heroku
-* [Tutorial](https://youtu.be/KBye6MXf-64)
+* [Tutorial](https://youtu.be/GDqWA32N97o)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DeccanBotz/Base64)
 
